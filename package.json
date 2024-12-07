@@ -1,10 +1,14 @@
 {
-  "name": "ts-express-starter",
+  "name": "ts-express-node-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A TypeScript and Express starter template",
   "main": "index.js",
+  "bin": {
+    "ts-express-node-app": "./create.js"
+  },
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
+    "start": "node create.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
