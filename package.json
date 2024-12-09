@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A TypeScript and Express starter template",
   "main": "index.js",
-  "bin": {
-    "ts-express-node-app": "./create.js"
-  },
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
     "start": "node create.js",
@@ -23,10 +20,12 @@
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "mongoose": "^8.8.4",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
     "@types/morgan": "^1.9.9",
     "@types/node": "^22.10.1",
     "nodemon": "^3.1.7",
